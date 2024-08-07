@@ -1,0 +1,66 @@
+.container {
+    display:flex;
+    height: calc(100vh-72px);
+    align-items: center;  
+    margin: 0 auto ;
+  max-width: 1280px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.description h1 {
+font-size: 108px;    
+font-weight: 800;
+line-height: 102px;
+}
+
+.description p{
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 400px;
+    color: #5A5959 ;
+}
+.buttons {
+    display:flex;
+    gap: 40px;
+}
+.button1 {
+    all:unset;
+    background-color: #D01C28;
+    border-radius: 20px;
+    width:150px;
+    color: white;
+    text-align: center;
+    height: 41px;
+    padding: 6px 16px 6px 16px;
+}
+.button2 {
+    all:unset;
+    background-color: white;
+    border-radius: 20px;
+    width:150px;
+    border: 1px solid #D01C28 ;
+    text-align: center;
+    height: 41px;
+    padding: 6px 16px 6px 16px;
+}
+.container h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5959 ;
+}
+
+.images {
+    display: flex;
+    gap: 16px;
+    height: 32px;
+    width: 80px;
+}
+
+.shoe {
+    width: 530px;
+    height: 487.06px;
+}
